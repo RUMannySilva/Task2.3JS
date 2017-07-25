@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/mainsenate.css">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/capitol-dome.png" alt="smalllogopic" class="img-rounded" height="100">
+        <h1 class="maintitle">TGIF</h1>
+        <div class="floatright">
+            <img class="mailpic" src="assets/images/email.png" alt="smallmailpic" class="img-rounded" height="65">
+            <a class="email" href="mailto:info@tgif.net">info@tgif.net</a>
+        </div>
+    </header>
+    <nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="home-page.html">Home</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="congress.html">Congress 113
+            <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="senate-data.html">Senate</a></li>
+                    <li><a href="house.html">House</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="congress.html">Attendance
+            <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="senate-attendance.html">Senate Attendance</a></li>
+                    <li><a href="house-attendance.html">House Attendance</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="congress.html">Party Loyalty
+            <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="senate-party-loyalty.html">Senate Loyalty</a></li>
+                    <li><a href="house-party-loyalty.html">House Loyalty</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!--Table container-->
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Party Loyalty</h2>
+            <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda. </p>
+        </div>
+        <div class="col-sm-6">
+            <h2>House at a glance</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Party</th>
+                        <th>Number of Reps</th>
+                        <th>% Voted with Prty</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Republican</td>
+                        <td class="totalRepublicans">--</td>
+                        <td class="totalRepublicansPercentage">--</td>
+                    </tr>
+                    <tr>
+                        <td>Democrat</td>
+                        <td class="totalDemocrats">--</td>
+                        <td class="totalDemocratsPercentage">--</td>
+                    </tr>
+                    <tr>
+                        <td>Independent</td>
+                        <td class="totalIndependents">--</td>
+                        <td class="totalIndependentsPercentage">--</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Least Loyal (Bottom 10% of Party)</h2>
+            <table class="table" id="leastLoyal">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number Party Votes</th>
+                        <th>% Party Votes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-6">
+            <h2>Most Loyal (Top 10% of Party)</h2>
+            <table class="table" id="mostLoyal">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number Party Votes</th>
+                        <th>% Party Votes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/script/NYT-congress-113-house.json"></script>
+    <script type="text/javascript" src="assets/script/main.js"></script>
+</body>
+
+</html>

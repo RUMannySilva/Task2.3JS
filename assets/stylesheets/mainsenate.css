@@ -1,0 +1,110 @@
+/*senatepage*/
+
+h2 {
+	font-family:'pompiere',cursive;
+	font-weight: bolder; 
+	font-size: 35px;
+}
+p, nav, form, table { 
+	font-family: 'pompiere',cursive;
+	font-size:19px;
+ }
+ .panel-heading a { 
+ 	font-family: 'pompiere',cursive;
+ 	font-weight:bolder;
+ 	font-size: 20px;
+ 	text-decoration: underline;
+  }
+
+ div.main-text { 
+ 	text-align:center;
+ 	margin-bottom: 25px;
+  }
+form.form1 { 
+	display:inline-block;
+	float:left;
+ }
+ form.form2 { 
+ 	display:inline-block;
+ 	width:auto;
+ 	float:right;
+ 	margin: 0em 2em .25em 0em;
+
+ }
+
+ #formcontainer { 
+ 	margin-left:4.2em;
+  }
+ .panel-footer { 
+  	background-color: black;
+  	text-align: center;
+  	color:white;
+  	font-family: 'pompiere',cursive;
+  	font-size:18px;
+ }
+
+  /*Home page*/
+
+
+
+header img , header h1{ 
+	display:inline-block;
+ }
+
+ header h1 { 
+ 	font-family:'Shadows Into Light Two';
+ 	font-size:60px;
+  }
+h1.maintitle  { 
+	position:absolute;
+	top:10px;
+ }
+   .floatright{ 
+   	display:inline-block;
+   	float:right;
+   	margin-top:35px;
+   	margin-right:10px;
+  }
+ .floatright a { 
+ 	text-decoration: underline;
+  }
+
+ .email:hover { 
+ 	color:#BF16A5;
+
+  }
+  .email { 
+  	color:#0D74DB;
+  	font-family: 'pompiere',cursive;
+  }
+
+a.email  { 
+	font-size:25px;
+	position:relative;
+	top:15px;
+ }
+.mailpic { 
+	height:65px;
+ }
+ .main-text { 
+ 	margin:20px;
+  }
+  /*Congress Page*/
+
+.congress-text p { 
+  text-align:center;
+  margin:0px 15px 0px 15px;
+}
+.congress-text p:last-child { 
+margin-bottom: 25px;
+}
+.congressalign { 
+  text-align:center;
+ }
+
+ /* Targets all tables for senate/house attendance + loyalty */
+
+.row { 
+  margin:5px 15px;
+ }
+
